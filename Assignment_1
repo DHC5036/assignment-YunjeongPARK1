@@ -1,0 +1,9 @@
+
+
+1.	happens to the gradient if you backpropagate through a long sequence?
+: There might be ‘Vanishing Gradient’ problem. 
+2.	What happens if you increase the number of hidden layers in the RNN model?
+: First, the number of computations increased highly. 
+Second, the ‘Vanishing Gradient’ problem could get worse, obviously.
+Third, It could capture deeper meaning of data, which means lower layers catch lower feature like synthetic structure and higher layer catch higher feature like semantic. Therefore It could contribute to increasing performance
+
